@@ -1,40 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+🚀ERP - Frontend
 
-## Getting Started
+📌Descripción
+Este es el frontend del sistema ERP, diseñado para ser flexible, adaptable y escalable, complementando el backend del ERP.
 
-First, run the development server:
+-Permite a los usuarios interactuar con los diferentes módulos del sistema: finanzas, inventario, ventas, compras, clientes, proveedores, recursos humanos y reportes.
+-El diseño está enfocado en una experiencia intuitiva, con navegación clara y componentes visuales para facilitar la gestión de toda la empresa desde un solo panel.
 
-```bash
-npm run dev
-# or
+Funcionalidades principales:
+-Interfaz para gestión de usuarios y roles.
+-Visualización y administración de productos, inventario y almacenes.
+-Registro y seguimiento de facturas, cotizaciones y clientes.
+-Control de pagos, transacciones y cuentas.
+-Gestión de empleados, asistencia y nómina.
+-Acceso a reportes completos de ventas, inventario y finanzas.
+
+🛠️Tecnologías utilizadas
+-Framework: Next.js
+-Estilos: Emotion Styled
+-Iconos: FontAwesome
+-Llamadas a API: Axios
+-Gestor de paquetes: Yarn
+
+⚙️Instalación y ejecución
+
+1.-Clonar el repositorio:
+git clone https://github.com/EdannyDev/erp-app.git
+
+2.-Instalar dependencias:
+yarn install
+
+3.-Ejecutar la aplicación:
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4.-Abrir en el navegador:
+http://localhost:3000
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+✨Características principales
+-Gestión completa de inventario, ventas y compras.
+-Módulos administrativos para empleados, clientes y proveedores.
+-Panel de control con reportes y métricas en tiempo real.
+-Integración con backend para autenticación, permisos y envío de notificaciones.
+-Interfaz moderna, pensada para cualquier tipo de empresa.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+🔗Enlaces útiles
+Backend: https://github.com/EdannyDev/backend-erp
