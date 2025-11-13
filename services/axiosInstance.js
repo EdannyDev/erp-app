@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://backend-erp-6c65.onrender.com/api'
+const BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:5000/api'
 
 const axiosInstance = axios.create({
   baseURL: BASE_URL,
